@@ -1,0 +1,44 @@
+
+<p>
+  {{homeTitle}}
+</p>
+
+
+<p>{{ninjaAppData.name}}</p>
+<p>{{ninjaAppData.belt}}</p>
+
+<button (click)="fireYellEvent($event)">Hit me</button>
+
+
+
+
+<!-- <div class="greeting">
+  <p class="nice">{{greetingNice}}</p>
+  <p class="mean">{{greetingMean}}</p>
+</div> -->
+<!-- <p>home paragraph</p> -->
+<ng-content></ng-content>
+<!-- we can bind data using them nifty square brackets -->
+<!-- <input [value]="myString"/> -->
+<!-- use attr.required, because required initializes a validator for the control -->
+<!-- <input [attr.required]="myBoolean"> -->
+<!-- but we can also bind data using good ol' string interpolation -->
+<!-- <input value="{{myString2}}"/> -->
+
+<!-- 2 Way Data Binding Example-->
+<!-- ngModel defines model to which data will bind to -->
+<!-- <input [(ngModel)]="ninja.name"/>
+<input [(ngModel)]="ninja.belt">
+<p>{{ninja.name}}</p>
+<p>{{ninja.belt}}</p> -->
+
+
+
+
+
+
+
+<!-- <button (click)= "alertBeef('You like beef!')" type="button" name="button">Click if you like beef</button> -->
+
+
+<!-- <input value="myString"/> -->
